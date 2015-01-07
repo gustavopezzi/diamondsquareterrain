@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Diamond-Square Terrain</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <link rel="stylesheet" href="lib/purplegui/purplegui.css">
+        <script src="lib/threejs/three.js"></script>
+        <script src="generate_terrain.js"></script>
+    </head>
+    <body onload="startUp()">
+        <div class="purplebox">
+            <span class="label">Size:</span><input id="scale" type="text" value="4" size="3"/><br/>
+            <span class="label">Smoothness:</span><input id="roughness" type="text" value="1.0" size="3"/><br/><br/>
+            <input type="button" value="Generate" onclick="generate()"/>
+        </div>
+    </body>
+</html>

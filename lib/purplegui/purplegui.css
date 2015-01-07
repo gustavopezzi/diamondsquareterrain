@@ -1,0 +1,112 @@
+/*******************************/
+/* webfonts
+/*******************************/
+@font-face {
+	font-family: 'CharriotDeluxe';
+	src: url(webfonts/CharriotDeluxe.eot);
+	src: url(webfonts/CharriotDeluxe.eot?#iefix) format('embedded-opentype'),
+	url(webfonts/CharriotDeluxe.woff) format('woff'),
+	url(webfonts/CharriotDeluxe.ttf) format('truetype');
+}
+
+/*******************************/
+/* styles
+/*******************************/
+body {
+	background: #000;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: 'CharriotDeluxe';
+	color: #D4CEFE;
+	background: #000;
+	height: 100%;
+	width: 100%;
+	cursor:url(images/pointer.png), pointer;
+}
+
+.purplebox {
+	position: absolute;
+	background: #8279BA;
+	border-style: solid;
+	border-width: 3px;
+	border-left-color: #99B4E1;
+	border-top-color: #99B4E1;
+	border-right-color: #4A5B89;
+	border-bottom-color: #4A5B89;
+	font-family: 'CharriotDeluxe';
+	color: #D4CEFE;
+	font-size: 15px;
+	letter-spacing: -1px;
+	padding: 20px 20px 10px 20px;
+	cursor:url(images/pointer.png), pointer;
+	text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+input {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: left;
+	margin-bottom: 10px;
+	cursor:url(images/pointer.png), pointer;
+}
+
+input[type=button] {
+	padding: 2px 10px 2px 10px;
+	outline-style: none;
+	background: #8279BA;
+	border-style: solid;
+	border-width: 2px;
+	border-left-color: #99B4E1;
+	border-top-color: #99B4E1;
+	border-right-color: #4A5B89;
+	border-bottom-color: #4A5B89;
+	font-family: 'CharriotDeluxe';
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	cursor:url(images/pointer.png), pointer;
+}
+
+input[type=button]:active {
+	border-style: solid;
+	border-width: 2px;
+	border-left-color: #485C8E;
+	border-top-color: #485C8E;
+	border-right-color: #9CABE4;
+	border-bottom-color: #9CABE4;
+	background-color: #6A72A3;
+	font-family: 'CharriotDeluxe';
+	font-size: 15px;
+	cursor:url(images/pointer.png), pointer;
+}
+
+input[type=text] {
+	display: inline;
+	width: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-left-color: #485C8E;
+	border-top-color: #485C8E;
+	border-right-color: #9CABE4;
+	border-bottom-color: #9CABE4;
+	background-color: #6A72A3;
+	font-family: 'CharriotDeluxe';
+	color: #DDD;
+	text-align: right;
+	font-size: 15px;
+	padding-left: 3px;
+	letter-spacing: -1px;
+	outline-style: none;
+	cursor:url(images/pointer.png), pointer;
+}
